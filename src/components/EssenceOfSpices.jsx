@@ -10,7 +10,7 @@ export default function EssenceOfSpices() {
           <span className="underline bg-red-500"></span>
         </div>
       </div>
-      <p className="mx-[22rem]">
+      <p className="lg:mx-[22rem]">
         Welcome to Aadesh Masala, an Indian spices brand that is dedicated to bringing the flavors of traditional Indian cuisine to every household in India. Our mission is to provide the best quality spices to our customers, ensuring that every meal is full of flavor and packed with nutrition. Over the years, we have grown from a small local business to a national brand, serving customers across India. We take pride in our commitment to quality, sourcing the freshest and finest ingredients to make our spices. Our products are free from any harmful additives, ensuring that our customers can enjoy healthy and delicious meals.
       </p>
 

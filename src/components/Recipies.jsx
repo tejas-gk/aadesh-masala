@@ -6,47 +6,47 @@ const recipies = [
     {
         image: images.recepie1,
         title: "Beef and Mustard Pie",
-        link: "https://www.themealdb.com/meal/52959"
+        link: "/recipies/1"
     },
     {
         image: images.recepie2,
         title: "Beef and Oyster pie",
-        link: "https://www.themealdb.com/meal/52959"
+        link: "/recipies/2"
     },
     {
         image: images.recepie3,
         title: "Beef and Pickle pie",
-        link: "https://www.themealdb.com/meal/52959"
+        link: "/recipies/3"
     },
     {
         image: images.recepie4,
         title: "Steak and Kidney pie",
-        link: "https://www.themealdb.com/meal/52959"
+        link: "/recipies/4"
     },
     {
         image: images.recepie5,
         title: "Steak and Onion pie",
-        link: "https://www.themealdb.com/meal/52959"
+        link: "/recipies/5"
     },
     {
         image: images.recepie6,
         title: "Steak and Mushroom pie",
-        link: "https://www.themealdb.com/meal/52959"
+        link: "/recipies/6"
     },
     {
         image: images.recepie7,
         title: "Steak and Ale pie",
-        link: "https://www.themealdb.com/meal/52959"
+        link: "/recipies/7"
     },
     {
         image: images.recepie8,
         title: "Chicken and Mushroom pie",
-        link: "https://www.themealdb.com/meal/52959"
+        link: "/recipies/8"
     },
     {
         image: images.recepie9,
         title: "Chicken and Leek pie",
-        link: "https://www.themealdb.com/meal/52959"
+        link: "/recipies/9"
     }
 ]
 export default function Recipies() {
@@ -74,14 +74,19 @@ export default function Recipies() {
     };
 
     return (
-        <Slider {...settings}>
-            {recipies.map((recipe, index) => (
-                <div key={index}>
-                    <a href={recipe.link} target="_blank" rel="noreferrer">{recipe.title}</a>
-                    <img src={recipe.image} alt={recipe.title} />
-                </div>
-            ))}
-        </Slider>
+        <div className="mt-8">
+
+            <Slider {...settings}>
+                {recipies.map((recipe, index) => (
+                    <div key={index}>
+                        <a href={recipe.link} target="_blank" rel="noreferrer">
+                            <img src={recipe.image} alt={recipe.title} className="w-[300px] h-[300px]" />
+                            {recipe.title}
+                        </a>
+                    </div>
+                ))}
+            </Slider>
+        </div>
     );
 }
 
