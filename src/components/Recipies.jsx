@@ -35,7 +35,7 @@ export default function Recipies() {
             <div className="relative w-fit text-center mx-auto mb-9 mt-4">
                 <div className='txt cursor-pointer mx-auto text-3xl text-red-500 font-bold'>
                     Spice Up Your Meals with Aadesh Masale
-                    <span className="underline bg-red-500"></span>
+                    <span className="underline-a bg-red-500"></span>
                 </div>
             </div>
 

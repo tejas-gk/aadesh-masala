@@ -6,7 +6,7 @@
   fill: white;
 }
 
-.underline {
+.underline-a {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -16,7 +16,7 @@
   margin: -6px auto;
 }
 
-.txt:hover  .underline {
+.txt:hover  .underline-a {
   width: 100%;
 }
 

@@ -1,4 +1,4 @@
-import { images } from '../assets/images'
+import { images } from '../../assets/images'
 const navItems = [
     {
         name: 'Home',
@@ -34,7 +34,7 @@ export default function Navbar() {
                             <div key={index} className='inline-block mx-2'>
                                 <a href='/' className='txt relative text-[19px] font-bold cursor-pointer'>
                                     {item.name}
-                                    <span className="underline bg-black"></span>
+                                    <span className="underline-a bg-black"></span>
                                 </a>
                             </div>
                         )

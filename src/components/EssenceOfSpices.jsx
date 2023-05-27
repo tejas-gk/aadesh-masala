@@ -7,7 +7,7 @@ export default function EssenceOfSpices() {
       <div className="relative w-fit text-center mx-auto mb-9 mt-4">
         <div className='txt cursor-pointer mx-auto text-5xl text-red-500 font-bold'>
           The Essence of Indian Spices
-          <span className="underline bg-red-500"></span>
+          <span className="underline-a bg-red-500"></span>
         </div>
       </div>
       <p className="lg:mx-[22rem]">

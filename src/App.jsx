@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar"
+import Navbar from "./components/common/Navbar"
 import Recipies from "./pages/Recipies"
 import {
   BrowserRouter as Router,

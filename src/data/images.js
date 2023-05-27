@@ -7,6 +7,15 @@ import bacground from '/assets/asset 5.png'
 import bacground1 from '/assets/asset 6.png'
 import bacground2 from '/assets/asset 7.webp'
 import food1 from '/assets/asset 8.png'
+import food2 from '/assets/asset 9.png'
+import food3 from '/assets/asset 10.png'
+import food4 from '/assets/asset 11.png'
+import food5 from '/assets/asset 12.png'
+import food6 from '/assets/asset 13.png'
+import food7 from '/assets/asset 14.png'
+import food8 from '/assets/asset 15.png'
+import food9 from '/assets/asset 16.png'
+import food10 from '/assets/asset 17.png'
 import recepie1 from '/assets/asset 32.jpeg'
 import recepie2 from '/assets/asset 33.jpeg'
 import recepie3 from '/assets/asset 34.jpeg'
@@ -30,6 +39,15 @@ export const images = {
     bacground1,
     bacground2,
     food1,
+    food2,
+    food3,
+    food4,
+    food5,
+    food6,
+    food7,
+    food8,
+    food9,
+    food10,
     recepie1,
     recepie2,
     recepie3,
@@ -39,5 +57,6 @@ export const images = {
     recepie7,
     recepie8,
     recepie9,
+
     a
 }
