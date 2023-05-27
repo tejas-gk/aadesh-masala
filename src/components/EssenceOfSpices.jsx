@@ -14,13 +14,15 @@ export default function EssenceOfSpices() {
         Welcome to Aadesh Masala, an Indian spices brand that is dedicated to bringing the flavors of traditional Indian cuisine to every household in India. Our mission is to provide the best quality spices to our customers, ensuring that every meal is full of flavor and packed with nutrition. Over the years, we have grown from a small local business to a national brand, serving customers across India. We take pride in our commitment to quality, sourcing the freshest and finest ingredients to make our spices. Our products are free from any harmful additives, ensuring that our customers can enjoy healthy and delicious meals.
       </p>
 
-      <div className="flex items-center justify-center">
-        <div className="h-10 w-10 bg-black rounded-full text-white flex items-center justify-center">
+
+      <div className="flex items-center justify-center relative mt-5 txt w-fit mx-auto">
+        <div className="h-10 w-10 bg-black rounded-full text-white flex items-center justify-center fill">
           <img src={images.rightArrow} alt="rightArrow" className="svg-white" />
         </div>
-        <p className="ml-2">
+        <p className="ml-10">
           View more
         </p>
+        <div className="h-1 w-full bg-black transform scale-x-0 transition-transform duration-300 origin-left absolute bottom-0 left-0"></div>
       </div>
 
     </div>

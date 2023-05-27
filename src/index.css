@@ -6,7 +6,6 @@
   fill: white;
 }
 
-
 .underline {
   position: absolute;
   bottom: 0;
@@ -18,6 +17,20 @@
 }
 
 .txt:hover  .underline {
+  width: 100%;
+}
+
+.fill{
+   position: absolute;
+  bottom: 0;
+  left: 0;
+  width:30px;
+  height: 30px;
+  transition: width 0.3s ease-in-out;
+  margin: -6px auto;
+}
+
+.txt:hover  .fill {
   width: 100%;
 }
 

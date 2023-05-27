@@ -1,24 +1,23 @@
 import Navbar from "./components/Navbar"
-import {images} from './assets/images'
-import Hero from "./components/Hero"
-import Info from "./components/Info"
-import EssenceOfSpices from "./components/EssenceOfSpices"
-
+import Recipies from "./components/Recipies"
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Home from "./pages/Home"
 function App() {
 
   return (
     <>
-      <div>
-        <div className="navbar fixed top-0 left-0 w-full z-50">
-
+      <Router>
         <Navbar />
-        </div>
-        <Hero />
-        <Info />
-        <EssenceOfSpices />
-        <img src={images.a}/>
-      </div>
-      
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/:id" element={<Recipies />} />
+        </Routes>
+      </Router>
+
     </>
   )
 }
