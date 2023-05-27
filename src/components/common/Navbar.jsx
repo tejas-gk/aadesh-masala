@@ -27,7 +27,7 @@ export default function Navbar() {
                 alt='logo'
                 className='h-24 w-24 ml-8'
             />
-            <div className="ml-auto mr-8 hidden lg:block max-h-24">
+            <div className="ml-auto mr-8 hidden mr-8 lg:block max-h-24">
                 {
                     navItems.map((item, index) => {
                         return (

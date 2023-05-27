@@ -1,4 +1,4 @@
-import { images } from "../assets/images";
+import { images } from "../data/images";
 
 export default function EssenceOfSpices() {
   return (
