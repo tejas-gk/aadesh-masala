@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar"
-import Recipies from "./components/Recipies"
+import Recipies from "./pages/Recipies"
 import {
   BrowserRouter as Router,
   Routes,
@@ -16,7 +16,7 @@ function App() {
         </div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/:id" element={<Recipies />} />
+          <Route path="/recipies/:id" element={<Recipies />} />
         </Routes>
       </Router>
 
