@@ -2,6 +2,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { recipies } from "../data/recipie";
+import Card from "./common/Card";
 
 export default function Recipies() {
     const settings = {
@@ -30,13 +31,20 @@ export default function Recipies() {
     return (
         <div className="mt-8 ">
 
+
+            <div className="relative w-fit text-center mx-auto mb-9 mt-4">
+                <div className='txt cursor-pointer mx-auto text-3xl text-red-500 font-bold'>
+                    Spice Up Your Meals with Aadesh Masale
+                    <span className="underline bg-red-500"></span>
+                </div>
+            </div>
+
+
+
             <Slider {...settings}>
                 {recipies.map((recipe, index) => (
                     <div key={index}>
-                        <a href={recipe.link} target="_blank" rel="noreferrer">
-                            <img src={recipe.image} alt={recipe.title} className="w-[300px] h-[300px]" />
-                            {recipe.title}
-                        </a>
+                        <Card data={recipe}/>
                     </div>
                 ))}
             </Slider>
