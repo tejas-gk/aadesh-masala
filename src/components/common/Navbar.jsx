@@ -24,8 +24,8 @@ const navItems = [
 export default function Navbar() {
     return (
         <>
-            <div className='relative'>
-                <div className='nav relative bg-white h-20'>
+            <div className=''>
+                <div className='nav relative bg-white h-20 z-[100]'>
                     <div className='nav-fill' />
                     <div className='flex items-center z-50 relative'>
                         <img src={images.logo} alt='logo' className='h-24 w-24 ml-8 z-101' />
