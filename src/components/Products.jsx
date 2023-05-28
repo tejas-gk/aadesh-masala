@@ -19,10 +19,10 @@ export default function ProductFilter() {
                 <TagButton tag="grounded" selectedTag={selectedTag} onClick={handleTagChange} />
                 <TagButton tag="other" selectedTag={selectedTag} onClick={handleTagChange} />
             </div>
-            <div className="grid lg:grid-cols-7 sm:grid-cols-4 grid-cols-3 gap-4 mt-4">
+            <div className="grid lg:grid-cols-8 sm:grid-cols-4 grid-cols-3 gap-4 mt-4">
                 {filteredProducts.map((product, index) => (
                     <div key={index}>
-                        <img src={product.image} alt={`Product ${index}`} className="h-32 w-32 mx-auto" />
+                        <img src={product.image} alt={`Product ${index}`} className="h-32 w-32 lg:h-42 lg:w-42 mx-auto" />
                     </div>
                 ))}
             </div>
