@@ -14,7 +14,7 @@ export default function Recipies() {
             font-bold
             mt-5
             '>Let&apos;s make {recipies[id].title}</h1>
-                <div className="txt cursor-pointer font-bold relative w-fit mt-5">
+                <div className="txt cursor-pointer font-bold relative w-fit mt-5  text-gray-600 text-xl">
                     Ingredients
                     <span className="underline-a bg-black"></span>
                 </div>
@@ -28,6 +28,31 @@ export default function Recipies() {
                     ))
 
                 }
+
+                <div className="txt cursor-pointer font-bold relative w-fit mt-5 text-gray-600 text-xl">
+                    Steps
+                    <span className="underline-a bg-black"></span>
+                </div>
+                <div>
+                    {
+                        recipies[id].steps.map((step, index) => (
+                            <div key={index} className='
+                    mt-5
+                    '>
+                                <h1 className='
+                    text-lg
+                    mt-5
+                    '>Step {index + 1}</h1>
+                                <div className='
+                    mt-5
+                    '>
+                                    {step}
+                                </div>
+                            </div>
+                        ))
+
+                    }
+                </div>
             </div>
 
 
@@ -71,7 +96,9 @@ export default function Recipies() {
                         : null
 
                 }
+         
             </div>
+
         </div>
     )
 }

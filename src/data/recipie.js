@@ -21,7 +21,12 @@ export const recipies = [
             "1 sheet puff pastry",
             "1 beaten egg for egg wash",
             "Fresh parsley for garnish"
-        ]
+        ],
+    steps: [
+      "Step 1: Heat oil in a large pot on medium-high heat and add onion. Cook until softened, about 4 minutes, then stir in garlic and Aadesh Jeera. Continue to cook until the onion begins to brown.",
+      "Step 2: Stir in tomatoes and coconut and the Aadesh Coriander Powder, salt, Aadesh Turmeric Powder, Aadesh Kashmiri Lal Mirch Powder, Aadesh Mishran Garam Masala, cinnamon, ginger, and cardamom. Stir until mixture begins to boil, then put in the potatoes, cauliflower, and garbanzo beans. Blend well. Reduce heat to low and cover.",
+      "Step 3: Simmer until the potatoes are tender, 45 minutes to an hour (this will depend on the size of the potato chunks). Sprinkle in the Aadesh Special Garam Masala, stir, and cook for an additional 5 minutes.",
+    ],
     },
     {
         image: images.recepie2,
@@ -43,7 +48,12 @@ export const recipies = [
             "Salt and pepper to taste",
             "1 sheet puff pastry",
             "1 beaten egg for egg wash"
-        ]
+        ],
+    steps: [
+      "Step 1: Heat oil in a large pot on medium-high heat and add onion. Cook until softened, about 4 minutes, then stir in garlic and Aadesh Jeera. Continue to cook until the onion begins to brown.",
+      "Step 2: Stir in tomatoes and coconut and the Aadesh Coriander Powder, salt, Aadesh Turmeric Powder, Aadesh Kashmiri Lal Mirch Powder, Aadesh Mishran Garam Masala, cinnamon, ginger, and cardamom. Stir until mixture begins to boil, then put in the potatoes, cauliflower, and garbanzo beans. Blend well. Reduce heat to low and cover.",
+      "Step 3: Simmer until the potatoes are tender, 45 minutes to an hour (this will depend on the size of the potato chunks). Sprinkle in the Aadesh Special Garam Masala, stir, and cook for an additional 5 minutes.",
+    ],
     },
     {
         image: images.recepie3,
@@ -64,7 +74,12 @@ export const recipies = [
             "Salt and pepper to taste",
             "1 sheet puff pastry",
             "1 beaten egg for egg wash"
-        ]
+        ],
+    steps: [
+      "Step 1: Heat oil in a large pot on medium-high heat and add onion. Cook until softened, about 4 minutes, then stir in garlic and Aadesh Jeera. Continue to cook until the onion begins to brown.",
+      "Step 2: Stir in tomatoes and coconut and the Aadesh Coriander Powder, salt, Aadesh Turmeric Powder, Aadesh Kashmiri Lal Mirch Powder, Aadesh Mishran Garam Masala, cinnamon, ginger, and cardamom. Stir until mixture begins to boil, then put in the potatoes, cauliflower, and garbanzo beans. Blend well. Reduce heat to low and cover.",
+      "Step 3: Simmer until the potatoes are tender, 45 minutes to an hour (this will depend on the size of the potato chunks). Sprinkle in the Aadesh Special Garam Masala, stir, and cook for an additional 5 minutes.",
+    ],
     },
     {
         image: images.recepie4,
@@ -85,7 +100,12 @@ export const recipies = [
             "Salt and pepper to taste",
             "1 sheet puff pastry",
             "1 beaten egg for egg wash"
-        ]
+        ],
+    steps: [
+      "Step 1: Heat oil in a large pot on medium-high heat and add onion. Cook until softened, about 4 minutes, then stir in garlic and Aadesh Jeera. Continue to cook until the onion begins to brown.",
+      "Step 2: Stir in tomatoes and coconut and the Aadesh Coriander Powder, salt, Aadesh Turmeric Powder, Aadesh Kashmiri Lal Mirch Powder, Aadesh Mishran Garam Masala, cinnamon, ginger, and cardamom. Stir until mixture begins to boil, then put in the potatoes, cauliflower, and garbanzo beans. Blend well. Reduce heat to low and cover.",
+      "Step 3: Simmer until the potatoes are tender, 45 minutes to an hour (this will depend on the size of the potato chunks). Sprinkle in the Aadesh Special Garam Masala, stir, and cook for an additional 5 minutes.",
+    ],
     },
     {
         image: images.recepie5,
@@ -104,7 +124,12 @@ export const recipies = [
             "Salt and pepper to taste",
             "1 sheet puff pastry",
             "1 beaten egg for egg wash"
-        ]
+        ],
+    steps: [
+      "Step 1: Heat oil in a large pot on medium-high heat and add onion. Cook until softened, about 4 minutes, then stir in garlic and Aadesh Jeera. Continue to cook until the onion begins to brown.",
+      "Step 2: Stir in tomatoes and coconut and the Aadesh Coriander Powder, salt, Aadesh Turmeric Powder, Aadesh Kashmiri Lal Mirch Powder, Aadesh Mishran Garam Masala, cinnamon, ginger, and cardamom. Stir until mixture begins to boil, then put in the potatoes, cauliflower, and garbanzo beans. Blend well. Reduce heat to low and cover.",
+      "Step 3: Simmer until the potatoes are tender, 45 minutes to an hour (this will depend on the size of the potato chunks). Sprinkle in the Aadesh Special Garam Masala, stir, and cook for an additional 5 minutes.",
+    ],
     },
     {
         image: images.recepie6,
@@ -124,7 +149,12 @@ export const recipies = [
             "Salt and pepper to taste",
             "1 sheet puff pastry",
             "1 beaten egg for egg wash"
-        ]
+        ],
+    steps: [
+      "Step 1: Heat oil in a large pot on medium-high heat and add onion. Cook until softened, about 4 minutes, then stir in garlic and Aadesh Jeera. Continue to cook until the onion begins to brown.",
+      "Step 2: Stir in tomatoes and coconut and the Aadesh Coriander Powder, salt, Aadesh Turmeric Powder, Aadesh Kashmiri Lal Mirch Powder, Aadesh Mishran Garam Masala, cinnamon, ginger, and cardamom. Stir until mixture begins to boil, then put in the potatoes, cauliflower, and garbanzo beans. Blend well. Reduce heat to low and cover.",
+      "Step 3: Simmer until the potatoes are tender, 45 minutes to an hour (this will depend on the size of the potato chunks). Sprinkle in the Aadesh Special Garam Masala, stir, and cook for an additional 5 minutes.",
+    ],
     },
     {
         image: images.recepie7,
@@ -144,7 +174,12 @@ export const recipies = [
             "Salt and pepper to taste",
             "1 sheet puff pastry",
             "1 beaten egg for egg wash"
-        ]
+        ],
+    steps: [
+      "Step 1: Heat oil in a large pot on medium-high heat and add onion. Cook until softened, about 4 minutes, then stir in garlic and Aadesh Jeera. Continue to cook until the onion begins to brown.",
+      "Step 2: Stir in tomatoes and coconut and the Aadesh Coriander Powder, salt, Aadesh Turmeric Powder, Aadesh Kashmiri Lal Mirch Powder, Aadesh Mishran Garam Masala, cinnamon, ginger, and cardamom. Stir until mixture begins to boil, then put in the potatoes, cauliflower, and garbanzo beans. Blend well. Reduce heat to low and cover.",
+      "Step 3: Simmer until the potatoes are tender, 45 minutes to an hour (this will depend on the size of the potato chunks). Sprinkle in the Aadesh Special Garam Masala, stir, and cook for an additional 5 minutes.",
+    ],
     },
     {
         image: images.recepie8,
@@ -163,7 +198,12 @@ export const recipies = [
             "Salt and pepper to taste",
             "1 sheet puff pastry",
             "1 beaten egg for egg wash"
-        ]
+        ],
+    steps: [
+      "Step 1: Heat oil in a large pot on medium-high heat and add onion. Cook until softened, about 4 minutes, then stir in garlic and Aadesh Jeera. Continue to cook until the onion begins to brown.",
+      "Step 2: Stir in tomatoes and coconut and the Aadesh Coriander Powder, salt, Aadesh Turmeric Powder, Aadesh Kashmiri Lal Mirch Powder, Aadesh Mishran Garam Masala, cinnamon, ginger, and cardamom. Stir until mixture begins to boil, then put in the potatoes, cauliflower, and garbanzo beans. Blend well. Reduce heat to low and cover.",
+      "Step 3: Simmer until the potatoes are tender, 45 minutes to an hour (this will depend on the size of the potato chunks). Sprinkle in the Aadesh Special Garam Masala, stir, and cook for an additional 5 minutes.",
+    ],
     },
     {
         image: images.recepie9,
@@ -182,6 +222,11 @@ export const recipies = [
             "Salt and pepper to taste",
             "1 sheet puff pastry",
             "1 beaten egg for egg wash"
-        ]
+        ],
+    steps: [
+      "Step 1: Heat oil in a large pot on medium-high heat and add onion. Cook until softened, about 4 minutes, then stir in garlic and Aadesh Jeera. Continue to cook until the onion begins to brown.",
+      "Step 2: Stir in tomatoes and coconut and the Aadesh Coriander Powder, salt, Aadesh Turmeric Powder, Aadesh Kashmiri Lal Mirch Powder, Aadesh Mishran Garam Masala, cinnamon, ginger, and cardamom. Stir until mixture begins to boil, then put in the potatoes, cauliflower, and garbanzo beans. Blend well. Reduce heat to low and cover.",
+      "Step 3: Simmer until the potatoes are tender, 45 minutes to an hour (this will depend on the size of the potato chunks). Sprinkle in the Aadesh Special Garam Masala, stir, and cook for an additional 5 minutes.",
+    ],
     }
 ];
