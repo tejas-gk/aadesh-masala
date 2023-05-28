@@ -5,7 +5,7 @@ export default function Recipies() {
     console.log(recipies[id], parseInt(id) + 1)
     return (
         <div className='mt-28'>
-            <img src={recipies[id].image} alt={recipies[id].title} className="w-full h-96 rounded-lg mx-5  mr-16 object-cover" />
+            <img src='https://aadhesh-final.vercel.app/recipes/bgimgs/3.jpg' alt='banner' className="w-full h-full  object-contain" />
            
             <div className='bg-gray-200 mx-5 p-3 mt-5 relative'>
 
