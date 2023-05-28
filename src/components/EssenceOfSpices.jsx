@@ -3,7 +3,7 @@ import { images } from "../data/images";
 export default function EssenceOfSpices() {
   return (
     <div className="essence">
-      <div className="text-center mx-28">
+      <div className="text-center lg:mx-28 mx-5">
         <div className="relative w-fit text-center mx-auto mb-9 mt-4">
           <div className='txt cursor-pointer mx-auto text-5xl text-red-500 font-bold'>
             The Essence of Indian Spices
