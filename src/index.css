@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.svg-white {
-  fill: white;
-}
 
 .underline-a {
   position: absolute;
