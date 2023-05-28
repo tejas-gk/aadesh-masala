@@ -4,7 +4,7 @@ export default function Recipies() {
     const { id } = useParams();
     return (
         <div className='mt-28'>
-            <img src={recipies[id].image} alt={recipies[id].title} className="w-full h-full rounded-lg" />
+            <img src={recipies[id].image} alt={recipies[id].title} className="w-full h-96 rounded-lg mx-5  mr-16 object-cover" />
             <div className='bg-gray-200 mx-5 p-3 mt-5 '>
 
                 <h1 className='
