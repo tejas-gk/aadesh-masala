@@ -47,19 +47,21 @@ export default function Recipies() {
     return (
         <div className="mt-8">
             <div className="relative w-fit text-center mx-auto mb-9 mt-4">
-                <div className="txt cursor-pointer mx-auto text-3xl text-red-500 font-bold">
+                <div className="txt cursor-pointer mx-auto lg:text-3xl text-lg text-red-500 font-bold">
                     Spice Up Your Meals with Aadesh Masale
                     <span className="underline-a bg-red-500"></span>
                 </div>
             </div>
+            <div className="ml-20 mr-20 lg:ml-0 lg:mr-0">
 
-            <Slider {...settings}>
-                {recipies.map((recipe, index) => (
-                    <div key={index}>
-                        <Card data={recipe} />
-                    </div>
-                ))}
-            </Slider>
+                <Slider {...settings}>
+                    {recipies.map((recipe, index) => (
+                        <div key={index}>
+                            <Card data={recipe} />
+                        </div>
+                    ))}
+                </Slider>
+            </div>
         </div>
     );
 }
