@@ -1,20 +1,23 @@
 import { useParams } from 'react-router-dom';
 import { recipies } from '../data/recipie';
-import Card from '../components/common/Card';
 export default function Recipies() {
     const { id } = useParams();
     console.log(recipies[id], parseInt(id) + 1)
     return (
         <div className='mt-28'>
             <img src={recipies[id].image} alt={recipies[id].title} className="w-full h-96 rounded-lg mx-5  mr-16 object-cover" />
-            <div className='bg-gray-200 mx-5 p-3 mt-5 '>
+           
+            <div className='bg-gray-200 mx-5 p-3 mt-5 relative'>
 
                 <h1 className='
             text-3xl
             font-bold
             mt-5
             '>Let&apos;s make {recipies[id].title}</h1>
-
+                <div className="txt cursor-pointer font-bold relative w-fit mt-5">
+                    Ingredients
+                    <span className="underline-a bg-black"></span>
+                </div>
                 {
                     recipies[id].ingredients.map((ingredient, index) => (
                         <div key={index} className='
