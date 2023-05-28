@@ -20,7 +20,6 @@ export default function EssenceOfSpices() {
           <p className="view-more ml-10 z-50">
             View more
           </p>
-          {/* <div className="h-1 w-full bg-black transform scale-x-0 transition-transform duration-300 origin-left absolute bottom-0 left-0"></div> */}
         </div>
 
 
