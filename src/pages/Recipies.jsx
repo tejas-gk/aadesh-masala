@@ -4,7 +4,7 @@ export default function Recipies() {
     const { id } = useParams();
     console.log(recipies[id], parseInt(id) + 1)
     return (
-        <div className='mt-28'>
+        <div className='mt-20'>
             <img src='https://aadhesh-final.vercel.app/recipes/bgimgs/3.jpg' alt='banner' className="w-full h-full  object-contain" />
            
             <div className='bg-gray-200 mx-5 p-3 mt-5 relative'>
