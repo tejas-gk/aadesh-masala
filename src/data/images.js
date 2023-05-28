@@ -16,6 +16,19 @@ import food7 from '/assets/asset 14.png'
 import food8 from '/assets/asset 15.png'
 import food9 from '/assets/asset 16.png'
 import food10 from '/assets/asset 17.png'
+import food11 from '/assets/asset 18.png'
+import food12 from '/assets/asset 19.png'
+import food13 from '/assets/asset 20.png'
+import food14 from '/assets/asset 21.png'
+import food15 from '/assets/asset 22.png'
+import food16 from '/assets/asset 23.png'
+import food17 from '/assets/asset 24.png'
+import food18 from '/assets/asset 25.png'
+import food19 from '/assets/asset 26.png'
+import food20 from '/assets/asset 27.png'
+import food21 from '/assets/asset 28.png'
+import food22 from '/assets/asset 29.png'
+import food23 from '/assets/asset 30.png'
 import recepie1 from '/assets/asset 32.jpeg'
 import recepie2 from '/assets/asset 33.jpeg'
 import recepie3 from '/assets/asset 34.jpeg'
@@ -49,6 +62,19 @@ export const images = {
     food8,
     food9,
     food10,
+    food11,
+    food12,
+    food13,
+    food14,
+    food15,
+    food16,
+    food17,
+    food18,
+    food19,
+    food20,
+    food21,
+    food22,
+    food23,
     recepie1,
     recepie2,
     recepie3,

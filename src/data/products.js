@@ -39,5 +39,45 @@ export const products = [
     {
         image: images.food10,
         tag:'blended'
+    },
+    {
+        image: images.food11,
+        tag:'blended'
+    },
+    {
+        image: images.food12,
+        tag:'blended'
+    },
+    {
+        image: images.food13,
+        tag:'blended'
+    },
+    {
+        image: images.food14,
+        tag:'blended'
+    },
+    {
+        image: images.food15,
+        tag:'blended'
+    },
+    {
+        image: images.food16,
+        tag:'blended'
+    },
+    {
+        image: images.food17,
+        tag:'blended'
+    },
+    {
+        image: images.food18,
+        tag:'blended'
+    },
+    {
+        image: images.food19,
+        tag:'blended'
+    },
+    {
+        image: images.food20,
+        tag:'blended'
     }
 ]
