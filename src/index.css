@@ -23,18 +23,21 @@ overflow-x: hidden;
    position: absolute;
   bottom: 0;
   left: 0;
-  width:30px;
-  height: 30px;
+ width: 30px;
+   height: 30px;
   transition: width 0.3s ease-in-out;
   margin: -6px auto;
+
 }
 
-.fill:hover{
-  width: 110%;
+.txt:hover .right-arrow{
+  margin-right:auto;
+  margin-left: 8px;
 }
 
 .txt:hover  .fill {
   width: 110%;
+  margin-right:110px; 
 }
 
 .txt:hover .view-more{
