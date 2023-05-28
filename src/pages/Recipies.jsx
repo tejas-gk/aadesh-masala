@@ -7,7 +7,7 @@ export default function Recipies() {
         <div className='mt-20'>
             <img src='https://aadhesh-final.vercel.app/recipes/bgimgs/3.jpg' alt='banner' className="w-full h-full  object-contain" />
            
-            <div className='bg-gray-200 mx-5 p-3 mt-5 relative'>
+            <div className='bg-gray-100 mx-20 p-6 mt-5 relative'>
 
                 <h1 className='
             text-3xl
