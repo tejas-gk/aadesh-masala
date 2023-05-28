@@ -11,7 +11,7 @@ export default function Recipies() {
             text-3xl
             font-bold
             mt-5
-            '>Let&pos;s make {recipies[id].title}</h1>
+            '>Let&apos;s make {recipies[id].title}</h1>
 
                 {
                     recipies[id].ingredients.map((ingredient, index) => (

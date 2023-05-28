@@ -25,9 +25,10 @@ import recepie6 from '/assets/asset 37.jpeg'
 import recepie7 from '/assets/asset 38.jpeg'
 import recepie8 from '/assets/asset 39.jpeg'
 import recepie9 from '/assets/asset 40.jpeg'
-import a from '/assets/asset 40.jpeg'
-
+import leftArrow from '/assets/asset 43.svg'
 import rightArrow from '/assets/asset 42.svg'
+import rightArrow1 from '/assets/asset 44.svg'
+
 export const images = {
     logo,
     natural,
@@ -57,6 +58,6 @@ export const images = {
     recepie7,
     recepie8,
     recepie9,
-
-    a
+    leftArrow,
+    rightArrow1
 }
